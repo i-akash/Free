@@ -1,0 +1,13 @@
+
+# Copyright 2018
+
+# ignore
+# Internal makegfile used by the checker
+
+all: build_verif
+
+build_verif:
+g ++ -Wall -lm -O3 $ {ONLINE_JUDGE} _utils / verif.cpp -o verif
+
+chub:
+rm -f verif

@@ -1,0 +1,8 @@
+
+p1 uses a simple greedy algorithm. Complexity is O(nlogn)
+
+p2 uses dynamic programming . Complexity is O(n*(n-k)*3)
+
+p3 uses dynamic programming.  Complexity is O(n*n*3).
+
+P4 uses dynamic programming.  Complexity is O(n^4).

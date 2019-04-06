@@ -1,0 +1,35 @@
+
+# Copyright 2018
+
+Rolling:
+- local:
+./check.sh
+
+* Sources + Makefiles must be in the current directory
+
+Run time error = Error occurred while running a test
+TLE = time limit exceeded (time limit of the current test exceeded)
+WA = wrong answer (the value in the .out file differs from the one in .ref)
+
+Execution times problem $ id:
+- C / C ++: _utils / timeout / c.timeout $ id
+
+- Java: _utils / timeout / java.timeout $ id
+
+Checker coding style:
+- C / C ++: utils / coding_style / check_cpp.py
+- source: https://google.github.io/styleguide/cppguide.html
+
+- Java: utils / coding_style / check_java.jar
+- source: http://checkstyle.sourceforge.net/google_style.html
+
+Example debug
+Rulez `. / Check.sh` and get WA to the gigel problem on Test 4.
+I decompose the next line in checker.sh
+# DEBUG = on
+(activate DEBUG - default files are deleted)
+
+I'm looking into the files:
+- public_test / gigel / input / 4-gigel.in // what input am
+- public_test / gigel / out / 4-gigel.out // what answer finds my algorithm
+- public_test / gigel / ref / 4-gigel.ref // what is the correct answer (expected)
